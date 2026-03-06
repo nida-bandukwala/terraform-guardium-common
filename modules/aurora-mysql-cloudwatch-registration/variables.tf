@@ -104,11 +104,6 @@ variable "csv_event_filter" {
   default     = ""
 }
 
-variable "codec_pattern" {
-  type        = string
-  description = "Codec pattern for Aurora MySQL CloudWatch logs"
-  default     = ""
-}
 
 variable "cloudwatch_endpoint" {
   type        = string
